@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGXML Test Suite" guice-stage="DEVELOPMENT">
+	<test name="Case 1 Test" group-by-instances="true" verbose="2"
+		preserve-order="true">
+		<classes>
+			<class name="com.weather.info.TestScript1" />
+			
+		</classes>
+	</test>
+</suite>
